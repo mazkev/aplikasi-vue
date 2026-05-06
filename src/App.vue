@@ -1,33 +1,13 @@
-<template>
-    <div id="app">
-        <header-component></header-component>
-        <router-view></router-view>
-    </div>
-</template>
-
-<script>
-import HeaderComponent from './views/Header'
-
-export default {
-    name: 'App',
-    components: {
-        'header-component': HeaderComponent
-    },
-    mounted() {
-        if(!this.$store.getters.getLoggedIn) {
-            this.$router.replace({ name: "login-component" });
-        }
-    },
-    methods: {
-    }
-}
+<script setup>
+import { RouterView } from 'vue-router'
 </script>
 
+<template>
+  <div class="min-h-screen font-sans antialiased text-slate-900 bg-slate-50">
+    <RouterView />
+  </div>
+</template>
+
 <style>
-    body {
-        background-color: #F0F0F0;
-    }
-    #app {
-        margin: auto;
-    }
+/* Any global styles if needed */
 </style>

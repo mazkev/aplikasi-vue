@@ -1,23 +1,59 @@
-# MarketPlace
+# 🌑 MazMarket | Premium E-Commerce Experience
 
-Vue.js frontend of a marketplace. Using Bootstrap for mobile-first and Vuex store for state management.
+MazMarket is a high-fidelity, luxury-themed e-commerce platform built with **Vue 3**, **Vite**, and **Tailwind CSS**. It features a bespoke "Obsidian" design system, delivering a professional and elite user experience.
 
-Mock data used in store to simulate data.
+## ✨ Key Features
 
-## Installation Versions
-1. <b>npm 6.11.3</b>
-2. <b>Vue.js 2.6.10</b>
-3. <b>Vue CLI 4.0.4</b>
-4. <b>Bootstrap 4.3.1</b>
+### 🛒 Consumer Storefront
+- **Premium Catalog**: Intelligent product browsing with category filtering and real-time search.
+- **Obsidian Night Drop**: High-impact flash-sale countdown system for exclusive collection launches.
+- **Interactive Comparison**: Side-by-side product analysis tool with a floating management tray.
+- **Order Tracking Journey**: A visual, interactive 4-step timeline for monitoring purchase status.
+- **Wishlist & Cart**: Seamless item management with local-first persistence.
+- **Obsidian Centurion Checkout**: A luxury payment experience featuring a custom black card interface.
 
-## Project setup
-```
-npm install
-```
-```
-npm run serve
-```
+### 🔐 Authentication & RBAC
+- **Multi-User System**: Full Registration and Login flow.
+- **Role-Based Access**: Dedicated administrative routes protected by security guards.
+- **Persistent Sessions**: User and cart data persist across browser sessions.
 
-For Login Page:
-1. Username: string
-2. Password: string
+### 🛠️ MazAdmin Back Office
+- **Order Management**: Real-time order processing hub with status updating.
+- **Inventory Control**: Comprehensive product management, including stock analytics and catalog expansion tools.
+- **Analytics Dashboard**: Clean, unified stat cards for warehouse performance monitoring.
+
+## 🚀 Tech Stack
+- **Frontend**: Vue 3 (Composition API)
+- **State Management**: Pinia
+- **Routing**: Vue Router
+- **Styling**: Tailwind CSS + Custom "Obsidian" Design System
+- **Persistence**: LocalStorage API
+- **Icons**: Custom Heroicons SVG Integration
+
+## 📦 Getting Started
+
+1. **Clone & Install**
+   ```bash
+   git clone https://github.com/mazkev/aplikasi-vue
+   npm install
+   ```
+
+2. **Development**
+   ```bash
+   npm run dev
+   ```
+
+3. **Production Build**
+   ```bash
+   npm run build
+   ```
+
+## 🎨 Design Philosophy
+MazMarket follows the **Obsidian Design Language**, characterized by:
+- Deep obsidian tones and glassmorphism.
+- Large border radii (2rem+) for a modern, fluid feel.
+- High-contrast typography and subtle micro-animations.
+- Responsive, mobile-first layouts.
+
+---
+Built with 🖤 by Mazkev
